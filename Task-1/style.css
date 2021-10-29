@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Navbar*/
+.navbar{
+    
+    
+    /* width: 100%; */
+    padding-left: 20px;
+    background-color: rgb(213, 237, 247);
+
+}
+li {
+    float: left;
+    padding: 20px;
+    
+    
+  }
+.brand{
+   margin-right: 200px;
+    padding-top: 0px;
+    margin-top: 0;
+}
+.navbrand{
+    padding: 12px 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    
+    
+  
+  overflow: hidden;
+}
+
+  li a{
+      text-decoration: none;
+      color: cornflowerblue;
+      font-weight: 600;
+      
+      
+  }
+  li a:hover{
+      color: rgb(28, 81, 179);
+  }
+.li{
+    padding: 0 20px;
+}
+
+ h2{
+     text-align: center;
+     padding: 15px;
+ }
+p{
+    color: grey;
+}
+/*Slider*/
+.slider-box{
+    position: relative;
+    width: 100%;
+   
+    
+    margin: 0px;
+}
+#slider{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    
+}
+#slider img{
+    width: 100%;
+    position: relative;
+    
+}
+.indicators{
+    position: absolute;
+    left: 30% ;
+   bottom: 20px;
+    transform: translateX(-50%);
+}
+.indicators span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(197, 193, 193);
+    cursor: pointer;
+
+}
+.onepage{
+    position: absolute;
+    top: 130px;
+    width: 100%;
+    
+}
+.onepage h1{
+    
+    color: rgb(78, 40, 214);
+    font-weight: 900;
+    width: 40%;
+    text-align: left;
+    
+}
+.onepage p{
+    color: rgb(211, 201, 201);
+    margin: 0px 28%;
+    padding: 10px;
+    text-align: left;
+}
+.onepage button{
+    width: 120 px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(152, 65, 214);
+    color: white;
+    padding: 8px;
+    font-weight: 600;
+}
+.onepage  .yell{
+    width: 120 px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    font-weight: 600;
+}
+/*Welcome Section*/
+ .lorum{
+     text-align: left;
+     margin: 5% 30%;
+     display: grid;
+     grid-template-columns: repeat(2,2fr);
+     column-gap: 100px;
+     
+ }
+ .card-icon{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     column-gap: 10px;
+     margin: 5% 28%;
+ }
+ .card-icon img{
+     padding: 2px 0px 10px 20px;
+     
+ }
+ .card-icon h3{
+     color: rebeccapurple;
+     text-align: center;
+ }
+ .card-icon p{
+     padding-top: 25px;
+     padding-bottom: 25px;
+ }
+ .card-icon button{
+    background-color:#61C0BF;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 18px;
+}
+.card-icon button:hover{
+    background-color: #FFB6B9;
+}
+ .card-bell, .card-bell,.card-icon{
+     padding: 5px;
+ }
+hr{
+    width: 60%;
+    margin: 0 300px;
+}
+
+
+/* PROJECTS SECTION */
+#project{
+    background-color: #e0dede;
+}
+.project-cards{
+    display: grid;
+    grid-template-columns:repeat(4,0fr);
+    /* column-gap: 10px; */
+    margin: 5% 0;
+    
+    
+    height: auto;
+    text-align: left;
+}
+.card-1:hover,.card-2:hover,.card-3:hover,.card-4:hover{
+    background-color: #FFB6B9 ;
+}
+.project-cards h3{
+   margin: 10% 18%;
+}
+.project-cards p{
+    margin: 8% 8%;
+    
+ }
+.project-cards button{
+    background-color: white;
+    color: black;
+    border: none;
+    width: 160px;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5%;
+    font-weight: 600;
+    padding: 2px;
+}
+.project-cards button:hover{
+    background-color:#61C0BF;
+    color: white;
+}
+
+/*PRICING SECTION*/
+.row{
+    margin: 3% 9%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.row h4{
+    color: grey;
+    padding: 5px;
+}
+.col-1,.col-2{
+    box-shadow: 1px 0 gray;
+    padding: 5%;
+}
+.col-3{
+    padding: 5%;
+}
+.row h5{
+    padding: 5px;
+}
+.row button{
+    margin: 25px;
+    height: 28px;
+    width: 90px;
+    font-weight: 600;
+    border: none;
+    background-color: #61C0BF;
+    color: honeydew;
+    border-radius: 5px;
+}
+.row button:hover{
+    background-color:  #FFB6B9;
+}
+
+.video-projs{
+    background-color:rgb(146, 93, 184);
+    padding: 15px;
+}
+.video-projs h2{
+    color: white;
+    margin: 15px;
+    
+}
+.video-projs iframe{
+    padding: 10px;
+}
+
+/*ZIPPY TEAM*/
+.row1{
+    margin: 5% 20%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.row1 img,.row2 img{
+    width: 150px;
+    height: 150px;
+    clip-path: circle(50% at 50% 50%);
+}
+.row1 h3,.row2 h3{
+    
+    padding: 5px;
+}
+.row1 h4,.row2 h4{
+    color: grey;
+    padding: 5px;
+}
+
+.row2{
+    margin: 5% 20%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.life-at-zippy{
+    background-color: rgb(146, 93, 184);
+}
+.life-at-zippy h2{
+    color: white;
+}
+.main{
+    width: 600px;
+    margin:  auto;
+}
+.main ul{
+    width: 600px;
+    margin: 100px auto;
+}
+.main .track ul{
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    height: 400px;
+    width: 100%;
+    margin: 5px;
+}
+.main .track ul li{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 500px;
+    opacity: 0;
+    transition: opacity .7 ease;
+}
+.main .track ul li:first-child{
+    opacity: 1;
+}
+.main .track ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slides{
+    display: grid;
+    grid-template-columns: repeat(5 ,1fr);
+    grid-gap: 20px;
+    padding: 8px;
+    margin-left: 10px;
+
+}
+.slides a{
+    border: 2px solid rgb(0, 0, 0);
+    height: 100px;
+}
+.slides a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.main .track ul li:target{
+    opacity: 1;
+    
+}
+.newsletter{
+    padding: 20px;
+    /* width: 100%; */
+    height: 300px;
+    background-image: url("https://images.unsplash.com/photo-1562499573-a3c6ee42ee83?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2624&q=80");
+}
+.newsletter input{
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    border: hidden;
+    padding: 5px;
+}
+.newsletter button{
+    
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    background-color: #dfec28;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+.newsletter button:hover{
+    background-color: yellowgreen;
+    color: white;
+}
+.newsletter .purp{
+    margin: 20px 0px 0px 615px;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    font-weight: 600;
+    border: none;
+    background-color: #b428ec;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
+
+.newsletter h2{
+    color: honeydew;
+    padding: 30px;
+}
+
+/*BLOG SECTION*/
+.blog-cards{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    margin: 5% 20%;
+    
+}
+
+.blog-cards h3{
+    margin: 3% 7%;
+
+}
+.blog-cards h4{
+    color: rgb(150, 150, 150);
+}
+.blog-cards p{
+    margin: 3% 7%;
+    text-align: left;
+    
+}
+
+.blog-cards button{
+    margin: 25px;
+    height: 28px;
+    width: 90px;
+    font-weight: 600;
+    border: none;
+    background-color: #61C0BF;
+    color: honeydew;
+    border-radius: 5px;
+}
+.blog-cards button:hover{
+    background-color:  #FFB6B9;
+}
+.blog-1,.blog-2,.blog-3{
+    box-shadow: 10px 3px 16px 0px rgb(0 0 0 / 10%);
+}
+
+
+
+
+/*CONTACT SECTION*/
+.contact{
+    text-align: left;
+    color: white;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: 750px auto;
+}
+
+.form{
+    text-align: left;
+    background-color:rgb(146, 93, 184);
+}
+.act{
+    margin-left: 155px;
+}
+.form input{
+    width: 236px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+.item{
+    padding: 5px;
+    margin-left:35px;
+    
+}
+.form button{
+    width: 236px;
+    height: 30px;
+    border: none;
+    background-color:     yellowgreen;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 15px 35px;
+}
+textarea{
+    border-radius: 5px; 
+}
+.form button:hover{
+    background-color: rgb(129, 224, 91);
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin: 5% 28%;
+}
+.footer h5,.footer p{
+    padding: 5px;
+}
+.links a{
+    padding: 2px;
+    color: rgb(57, 109, 223);
+}
